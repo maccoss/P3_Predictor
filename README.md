@@ -1,6 +1,20 @@
-# P3_Predictor
+# P3 - Proteotypic Peptide Predictor
 
-A Visual Basic 6 application for calculating peptides and transitions for targeted proteomics.
+Written by Michael J. MacCoss, Department of Genome Sciences, University of Washington
+
+## Overview
+
+P3 was written to simplify the selection of precursor > product ion transitions for peptides to be measured by selected reaction monitoring (SRM).
+
+![P3 Screenshot](P3_Screenshot.jpg)
+
+## Usage
+
+**Input:** Type or paste a protein sequence.
+
+**Output:** The output file is a comma separated values (CSV) file that can be uploaded into the SRM transition table of Xcalibur for the TSQ Quantum.
+
+**Note:** Cysteines are always assumed to be reduced and alkylated with iodoacetamide.
 
 ## Installation
 
@@ -44,3 +58,14 @@ If you already have `richtx32.ocx` on your computer or downloading the file didn
 3. You will see a message when completed:
    > "DllRegisterServer in C:\FilePath\RICHTX32.OCX succeeded."
 
+---
+
+## Links
+
+- [MacCoss Lab](http://proteome.gs.washington.edu/)
+- [Department of Genome Sciences](http://www.gs.washington.edu/)
+- [University of Washington](http://www.washington.edu/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
